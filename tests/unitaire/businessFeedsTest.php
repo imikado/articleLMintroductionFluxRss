@@ -1,10 +1,6 @@
 <?php
-require 'interface/interface_model.php';
-require 'interface/interface_valid.php';
-require 'plugin/sc/plugin_sc_check.php';
-require 'plugin/sc/plugin_sc_valid.php';
-require 'business/business_abstract.php';
-require 'business/business_feeds.php';
+ 
+require __DIR__.'/../autoload_unitaire.php';
 
 use PHPUnit\Framework\TestCase;
  
