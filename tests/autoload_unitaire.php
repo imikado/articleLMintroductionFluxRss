@@ -15,21 +15,6 @@ if (file_exists($tIni['path']['lib'])) {
 }
 
 
-$sLib = $tIni['path']['builder'] . '/module/mods/all/testunit/lib';
-
-
-$tUnitTestClass = array(
-    'class_layout.php',
-    'class_view.php',
-    'class_unitTest.php',
-    'abstract/abstract_module.php',
-    'abstract/abstract_model.php',
-    'abstract/abstract_row.php'
-);
-
-foreach ($tUnitTestClass as $sClass) {
-	include $sLib . '/' . $sClass;
-}
 
 include ($tIni['path']['lib'] . '/class_root.php');
 
